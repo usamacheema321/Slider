@@ -16,8 +16,10 @@ body{
 .slide-container{
     max-width: 1120px;
     width: 100%;
-    background-color: lightcoral;
+    background-color: lightgray;
     padding: 40px 0;
+    border-radius: 10px;
+
 }
 .slide-content{
     padding: 45px 20px;
@@ -46,7 +48,7 @@ body{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: pink;
+    background-color: grey;
     border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -72,7 +74,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 .name{
     font-size: 18px;
@@ -86,7 +88,7 @@ body{
 }
 
 .swiper-navBtn{
-    color: mediumorchid;
+    color: black;
     transition: color 0.3s ease;
 }
 .swiper-navBtn::before,
@@ -100,6 +102,6 @@ body{
     left: 0;
 }
 .swiper-pagination-bullet{
- background-color: red;
+ background-color: black;
  opacity:1;
 }
